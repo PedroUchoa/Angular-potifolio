@@ -1,0 +1,15 @@
+@for (item of skills; track $index) {
+<div class="skill-list">
+  <h3>{{item.title}}</h3>
+  <ul>
+    @for (value of item.skills; track $index) {
+    <li>
+      <div class="img-container">
+      <img src={{value.image}} alt="" />
+      </div>
+      <span>{{value.name}}</span>
+    </li>
+  }
+  </ul>
+</div>
+}

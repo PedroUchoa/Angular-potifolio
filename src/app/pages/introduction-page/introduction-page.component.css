@@ -1,3 +1,4 @@
+
 .principal-wrapper {
   height: 100vh;
   display: flex;
@@ -65,7 +66,6 @@
 .anim-typewriter {
   animation: typewriter 2s steps(44) 1s normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-
 }
 @keyframes typewriter {
   from {
@@ -77,11 +77,9 @@
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color:  #ffd100;;
+    border-right-color: #ffd100;
   }
   to {
     border-right-color: transparent;
   }
-
 }
-
