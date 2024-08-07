@@ -5,7 +5,7 @@
     @for (value of item.skills; track $index) {
     <li>
       <div class="img-container">
-      <img src={{value.image}} alt="" />
+      <img src={{value.image}} alt="" loading="lazy"/>
       </div>
       <span>{{value.name}}</span>
     </li>

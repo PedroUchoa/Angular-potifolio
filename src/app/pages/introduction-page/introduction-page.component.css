@@ -1,18 +1,19 @@
-
 .principal-wrapper {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  margin-bottom: 100px;
 }
 
 .header-wrapper {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
+  gap: 50px;
 }
 
 .about-wrapper {
@@ -51,15 +52,17 @@
 }
 
 .image-wrapper {
-  width: 40%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .image-wrapper img {
-  width: 65%;
-  height: 100%;
+  width: 100%;
+  min-width: 196px;
+  height: 80%;
+  min-height: 262px;
   border-radius: 30px;
 }
 
@@ -81,5 +84,55 @@
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .header-wrapper {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .about-wrapper {
+    width: 60%;
+    padding: 0;
+  }
+
+  .about-wrapper h1 {
+    font-size: 40px;
+  }
+
+  .me-wrapper {
+    font-size: 20px;
+  }
+
+  .about-wrapper p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .header-wrapper {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .about-wrapper {
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .about-wrapper p {
+    text-align: justify;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .about-wrapper h1 {
+    font-size: 35px;
+  text-align: center;
   }
 }

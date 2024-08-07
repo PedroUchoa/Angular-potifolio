@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { cards } from '../../interfaces/cards-interface';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-list-skills',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './list-skills.component.html',
   styleUrl: './list-skills.component.css',
 })
