@@ -1,6 +1,8 @@
-<section class="skills">
-  <h2>Skills</h2>
-  <div class="skills-wrapper">
-    <app-list-skills />
-  </div>
+<section class="projects">
+  <h2>Skill List</h2>
+  <ul class="skills-wrapper">
+    @for (item of skills; track $index) {
+      <app-list-skills [url]="item.url" [alt]="item.alt"></app-list-skills>
+    }
+  </ul>
 </section>

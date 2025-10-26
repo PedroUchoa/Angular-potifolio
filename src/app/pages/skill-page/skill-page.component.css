@@ -1,43 +1,48 @@
-.skills {
-  height: 80vh;
+.projects {
+  height: max-content;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex;
+
   justify-content: flex-start;
+  gap: 60px;
+  margin-bottom: 50px;
 }
 
-.skills h2 {
+.projects h2 {
   font-size: 50px;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  margin-left: 150px;
+  margin-left: 160px;
   border-bottom: 2px solid #ffd100;
+  align-self: flex-start ;
 }
 
-.skills-wrapper {
-  height: 100%;
-  width: 100%;
+.skills-wrapper{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  list-style: none;
+  width: 80vw;
   flex-wrap: wrap;
-  margin-top: 50px;
+  gap: 100px ;
+  row-gap: 60px;
+  margin-left: 100px;
 }
 
 
 @media only screen and (max-width: 1050px) {
-  .skills h2 {
+  .projects h2 {
   margin-left: 100px;
 }
 }
 
 @media only screen and (max-width: 850px) {
-    .skills h2 {
+    .projects h2 {
   margin-left: 0px;
 }
-  .skills{
+  .projects{
     align-items: center;
     justify-content: center;
   }
