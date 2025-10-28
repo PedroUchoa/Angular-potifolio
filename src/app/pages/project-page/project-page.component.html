@@ -1,0 +1,14 @@
+<section class="projects">
+  <h2>Projects</h2>
+  <ul>
+    @for (item of projects; track $index) {
+    <app-list-projects
+      [description]="item.desctription"
+      [image]="item.img"
+      [title]="item.title"
+      [stacks]="item.stacks"
+      [url]="item.url"
+    />
+    }
+  </ul>
+</section>
