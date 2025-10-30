@@ -1,0 +1,35 @@
+.head-wrapper{
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #A7A7A7;
+  width: 100%;
+  height: 80px;
+  font-size: 20px;
+}
+
+.head-wrapper .logo{
+  height: 35px;
+}
+
+.head-wrapper ul{
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 45px;
+}
+
+.contact-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-wrapper a img{
+  width: 23px;
+  height: 23px;
+}
