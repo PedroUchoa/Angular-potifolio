@@ -9,6 +9,7 @@
   height: 80px;
   width: 76%;
   font-size: 20px;
+  z-index: 10;
 }
 
 .head-wrapper .logo{
@@ -22,6 +23,11 @@
   justify-content: flex-end;
   list-style: none;
   gap: 45px;
+}
+
+.head-wrapper ul li a{
+  text-decoration: none;
+    color: #A7A7A7;
 }
 
 .contact-wrapper{

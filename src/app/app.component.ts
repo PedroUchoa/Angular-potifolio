@@ -10,7 +10,7 @@ import { HeadComponent } from './components/head/head.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,IntroductionPageComponent,SkillPageComponent,NgOptimizedImage,ProjectPageComponent, HeadComponent,FooterPageComponent],
+  imports: [IntroductionPageComponent,SkillPageComponent,ProjectPageComponent, HeadComponent,FooterPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
