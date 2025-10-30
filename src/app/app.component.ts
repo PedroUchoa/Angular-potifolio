@@ -1,3 +1,4 @@
+import { FooterPageComponent } from './pages/footer-page/footer-page.component';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { IntroductionPageComponent } from './pages/introduction-page/introduction-page.component';
@@ -9,7 +10,7 @@ import { HeadComponent } from './components/head/head.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,IntroductionPageComponent,SkillPageComponent,NgOptimizedImage,ProjectPageComponent, HeadComponent],
+  imports: [RouterOutlet,IntroductionPageComponent,SkillPageComponent,NgOptimizedImage,ProjectPageComponent, HeadComponent,FooterPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
