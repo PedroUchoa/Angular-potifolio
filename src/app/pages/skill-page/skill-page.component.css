@@ -25,9 +25,17 @@
   list-style: none;
   width: 80vw;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 140px;
   row-gap: 60px;
 }
+
+@media only screen and (width: 2559px) {
+  .skills-wrapper{
+        width: 95vw;
+        gap: 120px;
+  }
+}
+
 
 @media only screen and (max-width: 1024px) {
   .skills h2 {
@@ -36,6 +44,7 @@
 
   .skills-wrapper{
         width: 95vw;
+        gap: 120px;
   }
 
 }
