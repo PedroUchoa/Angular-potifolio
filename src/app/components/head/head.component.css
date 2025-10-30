@@ -33,3 +33,13 @@
   width: 23px;
   height: 23px;
 }
+
+
+
+@media only screen and (max-width: 720px) {
+
+  .head-wrapper{
+    display: none;
+  }
+
+}

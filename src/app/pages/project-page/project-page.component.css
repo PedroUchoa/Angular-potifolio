@@ -15,10 +15,10 @@
   font-weight: 700;
   margin-left: 100px;
   border-bottom: 2px solid #ffd100;
-  align-self: flex-start ;
+  align-self: flex-start;
 }
 
-.projects ul{
+.projects ul {
   width: 82vw;
   display: flex;
   align-items: center;
@@ -27,3 +27,33 @@
   list-style: none;
   gap: 50px;
 }
+
+@media only screen and (max-width: 1220px){
+  .projects ul {
+    width: 99vw;
+   gap: 50px;
+   row-gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+.projects h2 {
+  margin-left: 40px;
+}
+
+  .projects ul {
+    width: 99vw;
+   gap: 30px;
+   row-gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .projects h2 {
+    margin-left: 0px;
+    align-self: center;
+  }
+}
+
+

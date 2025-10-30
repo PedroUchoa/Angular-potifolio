@@ -15,33 +15,52 @@
   font-weight: 700;
   margin-left: 100px;
   border-bottom: 2px solid #ffd100;
-  align-self: flex-start ;
+  align-self: flex-start;
 }
 
-.skills-wrapper{
+.skills-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   list-style: none;
   width: 80vw;
   flex-wrap: wrap;
-  gap: 100px ;
+  gap: 100px;
   row-gap: 60px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .skills h2 {
+    margin-left: 40px;
+  }
 
-@media only screen and (max-width: 1050px) {
-  .projects h2 {
-  margin-left: 100px;
-}
+  .skills-wrapper{
+        width: 95vw;
+  }
+
 }
 
 @media only screen and (max-width: 850px) {
-    .projects h2 {
-  margin-left: 0px;
-}
-  .projects{
-    align-items: center;
-    justify-content: center;
+  .skills h2 {
+    margin-left: 0;
+    align-self: center;
   }
+
+  .skills-wrapper {
+    gap: 50px;
+  }
+
+  @media only screen and (max-width: 736px) {
+    .skills-wrapper {
+      gap: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+ .skills{
+  margin-bottom: 50px;
+ }
+}
+
+
 }

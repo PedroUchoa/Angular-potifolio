@@ -1,4 +1,11 @@
-li img{
+li img {
   height: 100px;
   width: 100px;
+}
+
+@media only screen and (max-width: 425px) {
+  li img {
+    height: 50px;
+    width: 50px;
+  }
 }
