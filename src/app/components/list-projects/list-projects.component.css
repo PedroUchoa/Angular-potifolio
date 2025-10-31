@@ -1,5 +1,9 @@
 .project-box {
-  height: 420px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 440px;
   width: 300px;
   border-radius: 20px;
   background-color: #363636;
@@ -13,11 +17,12 @@
 }
 
 .text-wrapper {
+  height: 215px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-direction: column;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 15px 10px 15px;
   gap: 10px;
 }
 
@@ -26,39 +31,40 @@
 }
 
 .text-wrapper p {
-  font-size: 14px;
-  line-height: 20px;
-  text-align: left;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: justify;
 }
 
-.tech-wrapper{
+.tech-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
 
-.tech-wrapper h4{
+.tech-wrapper h4 {
   font-size: 13px;
 }
 
-.tech-wrapper p{
-  font-size: 13px;
+.tech-wrapper p {
+  font-size: 10px;
 }
 
-.git-wrapper{
+.git-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
 
-.git-wrapper img{
+.git-wrapper img {
   width: 20px;
   height: 20px;
+  justify-self: flex-end;
 }
 
-.git-wrapper a{
+.git-wrapper a {
   color: #cccccc;
   font-size: 13px;
 }
