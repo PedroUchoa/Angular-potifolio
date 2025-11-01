@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 60px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .skills h2 {
@@ -19,34 +19,31 @@
 }
 
 .skills-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
   list-style: none;
-  width: 80vw;
-  flex-wrap: wrap;
-  gap: 140px;
-  row-gap: 60px;
+  width: 75vw;
+  gap: 100px;
+  align-items: center;
 }
 
 @media only screen and (width: 2559px) {
-  .skills-wrapper{
-        width: 95vw;
-        gap: 120px;
+  .skills-wrapper {
+    width: 95vw;
+    gap: 60px;
   }
 }
-
 
 @media only screen and (max-width: 1024px) {
   .skills h2 {
     margin-left: 40px;
   }
 
-  .skills-wrapper{
-        width: 95vw;
-        gap: 120px;
+  .skills-wrapper {
+    width: 95vw;
+    gap: 60px;
   }
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -66,10 +63,8 @@
   }
 
   @media only screen and (max-width: 425px) {
- .skills{
-  margin-bottom: 50px;
- }
-}
-
-
+    .skills {
+      margin-bottom: 50px;
+    }
+  }
 }
